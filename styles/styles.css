@@ -1,0 +1,17 @@
+body > div:first-child {
+  overflow-x: hidden;
+}
+
+.btn-icon {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin: 0px 5px 0px 0px !important;
+  text-align: center;
+}
+
+.contact > a {
+  color: #11cdef !important;
+  margin-bottom: 0px !important;
+}
