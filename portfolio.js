@@ -79,16 +79,16 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    Stack: "Frontend", //Insert stack or technology you have experience in
     progressPercentage: "90", //Insert relative proficiency in percentage
   },
   {
     Stack: "Backend",
-    progressPercentage: "70",
+    progressPercentage: "75",
   },
   {
     Stack: "Programming",
-    progressPercentage: "60",
+    progressPercentage: "65",
   },
 ];
 
@@ -150,7 +150,7 @@ export const projects = [
     name: "Youtube (Lite version)",
     desc: "A lite version of youtube made with youtube API and firebase",
     tech: ["React", "Firebase", "Material UI", "FireStore", "Redux"],
-    link: "https://clone-4d027.web.app",
+    link: "https://clone-4d027.firebaseapp.com",
     FrontEnd: "https://github.com/KarthyV/youtube-clone",
   },
   {
