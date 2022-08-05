@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with React.js, Node and MongoDB .",
   resumeLink:
-    "https://drive.google.com/file/d/16qB7_SQuy5-UtWUl60IRSXmfzzDVhUvI/view?usp=sharing",
+    "https://1drv.ms/b/s!AvBAJrn56exbhK8NW_JO2GqmChD1sw",
 };
 
 export const openSource = {
