@@ -4,9 +4,8 @@ export const greetings = {
   name: "Karthick V",
   title: "Hi all, I'm Karthick",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with React.js, Node and MongoDB .",
-  resumeLink:
-    "https://1drv.ms/b/s!AvBAJrn56exbhK8NW_JO2GqmChD1sw",
+    "A Mechanical Engineer turned Web Developer, Passionate towards new creation and keeping myself up to Date on techs",
+  resumeLink: "https://1drv.ms/b/s!AvBAJrn56exbhK8NW_JO2GqmChD1sw",
 };
 
 export const openSource = {
@@ -139,6 +138,7 @@ export const projects = [
       "MongoDB Atlas",
       "Node",
       "JWT",
+      "Mongoose",
       "Netlify",
       "Heroku",
     ],
@@ -161,12 +161,29 @@ export const projects = [
       "Firebase",
       "Material UI",
       "MongoDB Atlas",
+      "Mongoose",
       "Node",
       "Redux",
     ],
     link: "https://stackoverflow-clone-41d61.firebaseapp.com",
     FrontEnd: "https://github.com/KarthyV/stackoverflow",
     BackEnd: "https://github.com/KarthyV/stackoverflow-backend",
+  },
+  {
+    name: "Blog App",
+    desc: "An minimalist blog app made with react,redux,mongodb",
+    tech: [
+      "React",
+      "Redux",
+      "BootStrap",
+      "Tailwind css",
+      "Mongoose",
+      "MongoDB Atlas",
+      "JWT",
+    ],
+    link: "https://karthyv-blogapp.netlify.app",
+    FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
+    BackEnd: "https://github.com/KarthyV/Blog---Backend",
   },
 ];
 
