@@ -7,11 +7,19 @@ body > div:first-child {
 }
 
 .contact {
-  margin: 0px 5px 0px 0px !important;
+  margin: 5px !important;
   text-align: center;
 }
 
 .contact > a {
   color: #11cdef !important;
   margin-bottom: 0px !important;
+}
+
+.btn-wrapper {
+  margin-top: 10px !important;
+}
+
+.projects_card {
+  height: 320px !important;
 }
