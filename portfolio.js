@@ -5,7 +5,8 @@ export const greetings = {
   title: "Hi all, I'm Karthick",
   description:
     "A Mechanical Engineer turned Web Developer, Passionate towards new creation and keeping myself up to Date on techs",
-  resumeLink: "https://1drv.ms/b/s!AvBAJrn56exbhK8NW_JO2GqmChD1sw",
+  resumeLink:
+    "https://drive.google.com/file/d/1z8Gcrdde75EnKR7ujm-xNE_P3kuUNNv-/view?usp=sharing",
 };
 
 export const openSource = {
@@ -142,15 +143,17 @@ export const projects = [
       "Netlify",
       "Heroku",
     ],
+    imageURL: "/assets/foodzie.PNG",
     link: "https://foodzie-app.netlify.app",
     FrontEnd: "https://github.com/KarthyV/foodzie-frontEnd",
     BackEnd: "https://github.com/KarthyV/foodzie-server",
   },
   {
-    name: "Youtube (Lite version)",
-    desc: "A lite version of youtube made with youtube API and firebase",
+    name: "YTC - Lite",
+    desc: "A entertainment app made with youtube API and firebase",
     tech: ["React", "Firebase", "Material UI", "FireStore", "Redux"],
-    link: "https://clone-4d027.firebaseapp.com",
+    imageURL: "/assets/ytc.PNG",
+    link: "https://clone-4d027.web.app",
     FrontEnd: "https://github.com/KarthyV/youtube-clone",
   },
   {
@@ -165,7 +168,8 @@ export const projects = [
       "Node",
       "Redux",
     ],
-    link: "https://stackoverflow-clone-41d61.firebaseapp.com",
+    imageURL: "/assets/stack.PNG",
+    link: "https://stackoverflow-clone-41d61.web.app",
     FrontEnd: "https://github.com/KarthyV/stackoverflow",
     BackEnd: "https://github.com/KarthyV/stackoverflow-backend",
   },
@@ -181,9 +185,27 @@ export const projects = [
       "MongoDB Atlas",
       "JWT",
     ],
+    imageURL: "/assets/blog.PNG",
     link: "https://karthyv-blogapp.netlify.app",
     FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
     BackEnd: "https://github.com/KarthyV/Blog---Backend",
+  },
+  {
+    name: "Amigo (E-commerce)",
+    desc: "An PitStop for gadget lovers",
+    tech: [
+      "React",
+      "Redux",
+      "BootStrap",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Stripe",
+      "Socket.io",
+    ],
+    imageURL: "/assets/amigo.PNG",
+    link: "https://karthyv-e-app.netlify.app",
+    FrontEnd: "https://github.com/KarthyV/e-commerce-client",
+    BackEnd: "https://github.com/KarthyV/e-commerce-server",
   },
 ];
 

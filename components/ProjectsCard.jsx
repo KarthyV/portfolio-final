@@ -8,11 +8,16 @@ const ProjectsCard = ({ data }) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
-        <Card className="shadow-lg--hover shadow mt-4">
+        <Card
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(${data.imageURL})`,
+          }}
+          className="shadow-lg--hover shadow mt-4"
+        >
           <CardBody className="projects_card">
             <div className="d-flex px-3">
-              <div className="pl-4">
-                <h3>{data.name}</h3>
+              <div style={{ color: "white" }} className="pl-4">
+                <h3 style={{ color: "white" }}>{data.name}</h3>
                 <p className="description mt-3">{data.desc}</p>
                 <p className="description mt-3">
                   {data.tech.map((el, i) => {
