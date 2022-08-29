@@ -23,3 +23,7 @@ body > div:first-child {
 .projects_card {
   height: 320px !important;
 }
+
+.credential {
+  margin-left: auto !important;
+}
