@@ -130,6 +130,23 @@ export const experience = [
 
 export const projects = [
   {
+    name: "Amigo (E-commerce)",
+    desc: "An PitStop for gadget lovers",
+    tech: [
+      "React",
+      "Redux",
+      "BootStrap",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Stripe",
+      "Socket.io",
+    ],
+    imageURL: "/assets/amigo.PNG",
+    link: "https://karthyv-e-app.netlify.app",
+    FrontEnd: "https://github.com/KarthyV/e-commerce-client",
+    BackEnd: "https://github.com/KarthyV/e-commerce-server",
+  },
+  {
     name: "Foodzie",
     desc: "A continental Recipe App,  easy to make your favorite recipe on your own.",
     tech: [
@@ -148,6 +165,24 @@ export const projects = [
     FrontEnd: "https://github.com/KarthyV/foodzie-frontEnd",
     BackEnd: "https://github.com/KarthyV/foodzie-server",
   },
+  {
+    name: "Blog App",
+    desc: "An minimalist blog app made with react,redux,mongodb",
+    tech: [
+      "React",
+      "Redux",
+      "BootStrap",
+      "Tailwind css",
+      "Mongoose",
+      "MongoDB Atlas",
+      "JWT",
+    ],
+    imageURL: "/assets/blog.PNG",
+    link: "https://karthyv-blogapp.netlify.app",
+    FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
+    BackEnd: "https://github.com/KarthyV/Blog---Backend",
+  },
+
   {
     name: "YTC - Lite",
     desc: "A entertainment app made with youtube API and firebase",
@@ -172,40 +207,6 @@ export const projects = [
     link: "https://stackoverflow-clone-41d61.web.app",
     FrontEnd: "https://github.com/KarthyV/stackoverflow",
     BackEnd: "https://github.com/KarthyV/stackoverflow-backend",
-  },
-  {
-    name: "Blog App",
-    desc: "An minimalist blog app made with react,redux,mongodb",
-    tech: [
-      "React",
-      "Redux",
-      "BootStrap",
-      "Tailwind css",
-      "Mongoose",
-      "MongoDB Atlas",
-      "JWT",
-    ],
-    imageURL: "/assets/blog.PNG",
-    link: "https://karthyv-blogapp.netlify.app",
-    FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
-    BackEnd: "https://github.com/KarthyV/Blog---Backend",
-  },
-  {
-    name: "Amigo (E-commerce)",
-    desc: "An PitStop for gadget lovers",
-    tech: [
-      "React",
-      "Redux",
-      "BootStrap",
-      "Mongoose",
-      "MongoDB Atlas",
-      "Stripe",
-      "Socket.io",
-    ],
-    imageURL: "/assets/amigo.PNG",
-    link: "https://karthyv-e-app.netlify.app",
-    FrontEnd: "https://github.com/KarthyV/e-commerce-client",
-    BackEnd: "https://github.com/KarthyV/e-commerce-server",
   },
 ];
 
