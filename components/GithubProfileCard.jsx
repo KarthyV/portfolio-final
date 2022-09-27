@@ -38,7 +38,7 @@ const GithubProfileCard = ({ prof }) => {
               </div>
               <div className="contact my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-mobile-button text-info mr-2" />
-                +91 8681846217
+                <a href="tel:8681846217">+91 8681846217</a>
               </div>
 
               <SocialLinks />
