@@ -204,7 +204,7 @@ export const projects = [
       "Redux",
     ],
     imageURL: "/assets/stack.PNG",
-    link: "https://stackoverflow-clone-41d61.web.app",
+    link: "https://coruscating-faloodeh-10cdab.netlify.app",
     FrontEnd: "https://github.com/KarthyV/stackoverflow",
     BackEnd: "https://github.com/KarthyV/stackoverflow-backend",
   },
