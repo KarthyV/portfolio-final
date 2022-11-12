@@ -5,8 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Karthick",
   description:
     "A Mechanical Engineer turned Web Developer, Passionate towards new creation and keeping myself up to Date on techs",
-  resumeLink:
-    "https://drive.google.com/file/d/1z8Gcrdde75EnKR7ujm-xNE_P3kuUNNv-/view?usp=sharing",
+  resumeLink: "https://1drv.ms/b/s!AvBAJrn56exbhK8dCFjbLUTf8sfckg?e=5dYht8",
 };
 
 export const openSource = {
