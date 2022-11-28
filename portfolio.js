@@ -15,9 +15,9 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/karthi.karthick.330",
-  instagram: "https://www.instagram.com/call_me_karthy",
-  twitter: "https://twitter.com/karthy_V_",
+  // facebook: "https://www.facebook.com/karthi.karthick.330",
+  // instagram: "https://www.instagram.com/call_me_karthy",
+  // twitter: "https://twitter.com/karthy_V_",
   github: "https://github.com/KarthyV",
   linkedin: "https://www.linkedin.com/in/karthick-v-663252157",
 };
@@ -78,8 +78,8 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: "Frontend", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
+    Stack: "Frontend",
+    progressPercentage: "90",
   },
   {
     Stack: "Backend",
@@ -113,10 +113,6 @@ export const experience = [
     companylogo: "/img/icons/common/download.png",
     date: "July 2018 – Aug 2019",
     desc: "Started my career as an junior purchase executive at Godrej & Boyce Mfg Co Ltd",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
   },
   {
     role: "Senior Executive",
