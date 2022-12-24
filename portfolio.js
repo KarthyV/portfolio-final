@@ -5,7 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Karthick",
   description:
     "A Mechanical Engineer turned Web Developer, Passionate towards new creation and keeping myself up to Date on techs",
-  resumeLink: "https://1drv.ms/b/s!AvBAJrn56exbhK8dCFjbLUTf8sfckg?e=5dYht8",
+  resumeLink: "https://1drv.ms/b/s!AvBAJrn56exbhK8f61D6yU7Kjkugjg?e=hcx5EI",
 };
 
 export const openSource = {
@@ -108,22 +108,32 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Junior Executive",
-    company: "Godrej & Boyce Mfg Co Ltd",
-    companylogo: "/img/icons/common/download.png",
-    date: "July 2018 – Aug 2019",
-    desc: "Started my career as an junior purchase executive at Godrej & Boyce Mfg Co Ltd",
-  },
-  {
     role: "Senior Executive",
     company: "Godrej & Boyce Mfg Co Ltd",
     companylogo: "/img/icons/common/download.png",
     date: "Aug 2019 – Feb 2022",
-    desc: "Promoted as Senior purchase executive at Godrej & Boyce Mfg Co Ltd",
+    // desc: "Senior purchase executive at Godrej & Boyce Mfg Co Ltd",
+  },
+  {
+    role: "Software Development Trainee",
+    company: "Tolemy",
+    companylogo:
+      "https://tolemy.io/wp-content/uploads/2020/11/2_tolemy_transparent_bg11.png",
+    date: "Sep 2022 - Dec 2022",
+    // desc: "Full Stack Development Training program",
+  },
+  {
+    role: "Full Stack Developer - Intern",
+    company: "Klenty",
+    companylogo:
+      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jykfghdntbedg2znxor0",
+    date: "Dec 2022 - Present",
+    // desc: "Full Stack Developer - Intern",
   },
 ];
 
 export const projects = [
+  // https://drive.google.com/file/d/1c7ZMB8q8rno_ouvZYxLP8WEPaZUTlI5t/view?usp=sharing
   {
     name: "Amigo (E-commerce)",
     desc: "An PitStop for gadget lovers",
@@ -140,6 +150,22 @@ export const projects = [
     link: "https://karthyv-e-app.netlify.app",
     FrontEnd: "https://github.com/KarthyV/e-commerce-client",
     BackEnd: "https://github.com/KarthyV/e-commerce-server",
+  },
+  {
+    name: "Kanban",
+    desc: "Task management webapp",
+    tech: [
+      "React",
+      "vite",
+      "Mongoose",
+      "MongoDB Atlas",
+      "Razorpay",
+      "NodeMailer",
+    ],
+    imageURL: "/assets/kanban.png",
+    link: "https://kanban-client-beta.vercel.app",
+    FrontEnd: "https://github.com/KarthyV/kanban-client",
+    BackEnd: "https://github.com/KarthyV/kanban-server",
   },
   {
     name: "Foodzie",
