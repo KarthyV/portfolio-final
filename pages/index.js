@@ -30,6 +30,10 @@ export default function Home({ githubProfileData }) {
             "Karthick V",
             "karthyv portfolio",
             "MERN portfolio",
+            "Reactjs",
+            "Nextjs",
+            "Redux",
+            "Frontend"
           ],
         }}
       />

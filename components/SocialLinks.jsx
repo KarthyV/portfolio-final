@@ -7,7 +7,7 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
-      {/* {socialLinks.instagram && (
+      {socialLinks.instagram && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
           color="instagram"
@@ -20,7 +20,7 @@ const SocialLinks = () => {
             <i className="fa fa-instagram" />
           </span>
         </Button>
-      )} */}
+      )}
       {socialLinks.github && (
         <Button
           className="btn-icon-only rounded-circle ml-1"

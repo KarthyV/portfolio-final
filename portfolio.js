@@ -16,7 +16,7 @@ export const contact = {};
 
 export const socialLinks = {
   // facebook: "https://www.facebook.com/karthi.karthick.330",
-  // instagram: "https://www.instagram.com/call_me_karthy",
+  instagram: "https://www.instagram.com/call_me_karthy",
   // twitter: "https://twitter.com/karthy_V_",
   github: "https://github.com/KarthyV",
   linkedin: "https://www.linkedin.com/in/karthick-v-663252157",
@@ -115,7 +115,7 @@ export const experience = [
     // desc: "Senior purchase executive at Godrej & Boyce Mfg Co Ltd",
   },
   {
-    role: "Software Development Trainee",
+    role: "Full Stack Developer - Intern",
     company: "Tolemy",
     companylogo:
       "https://tolemy.io/wp-content/uploads/2020/11/2_tolemy_transparent_bg11.png",
@@ -127,7 +127,14 @@ export const experience = [
     company: "Klenty",
     companylogo:
       "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jykfghdntbedg2znxor0",
-    date: "Dec 2022 - Present",
+    date: "Dec 2022 - Jan 2023",
+    // desc: "Full Stack Developer - Intern",
+  },
+  {
+    role: "Full Stack Developer - Full Time",
+    company: "Remitbee India private",
+    companylogo: "/img/icons/common/remitbee_logo.jpg",
+    date: "Mar 2023 - Present",
     // desc: "Full Stack Developer - Intern",
   },
 ];
