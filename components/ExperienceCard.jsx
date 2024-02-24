@@ -33,6 +33,7 @@ const ExperienceCard = ({ data }) => {
 								height: "8rem",
 								borderRadius: "50%",
 							}}
+							onError={(e) => e.target.src = '/img/icons/common/logo-placeholder.png'}
 							className="shadow mb-3"
 							alt={data.companylogo}
 						/>

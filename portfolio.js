@@ -62,7 +62,6 @@ export const skillsSection = {
           skillName: "Firebase",
           fontAwesomeClassname: "vscode-icons:file-type-firebase",
         },
-
         {
           skillName: "Redux",
           fontAwesomeClassname: "logos:redux",
@@ -96,7 +95,7 @@ export const educationInfo = [
     schoolName: "SRM University",
     subHeader: "Bachelor of Technology in Mechanical",
     duration: "July 2020 - Nov 2023",
-    descBullets: ["Part Time Course - Pursuing Currently"],
+    descBullets: ["Completed with First Class - 8.73 CGPA"],
   },
   {
     schoolName: "Central Polytechnic College",
@@ -118,7 +117,7 @@ export const experience = [
     role: "Full Stack Developer - Intern",
     company: "Tolemy",
     companylogo:
-      "https://tolemy.io/wp-content/uploads/2020/11/2_tolemy_transparent_bg11.png",
+      "/img/icons/common/logo-placeholder.png",
     date: "Sep 2022 - Dec 2022",
     // desc: "Full Stack Development Training program",
   },
@@ -126,7 +125,7 @@ export const experience = [
     role: "Full Stack Developer - Intern",
     company: "Klenty",
     companylogo:
-      "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/jykfghdntbedg2znxor0",
+    "/img/icons/common/klenty-logo.jpg",
     date: "Dec 2022 - Jan 2023",
     // desc: "Full Stack Developer - Intern",
   },
@@ -210,7 +209,6 @@ export const projects = [
     FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
     BackEnd: "https://github.com/KarthyV/Blog---Backend",
   },
-
   {
     name: "YTC - Lite",
     desc: "A entertainment app made with youtube API and firebase",
