@@ -19,14 +19,13 @@ import {
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState("");
   const onExiting = () => setCollapseClasses("collapsing-out");
-
   const onExited = () => setCollapseClasses("");
 
   useEffect(() => {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
     headroom.init();
-  });
+  }, []);
 
   return (
     <>
@@ -72,38 +71,6 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                {/* {socialLinks.facebook && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Facebook"
-											className="nav-link-icon"
-											href={socialLinks.facebook}
-											target="_blank"
-										>
-											<i className="fa fa-facebook-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Facebook
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.instagram && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Instagram"
-											className="nav-link-icon"
-											href={socialLinks.instagram}
-											target="_blank"
-										>
-											<i className="fa fa-instagram" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Instagram
-											</span>
-										</NavLink>
-									</NavItem>
-								)} */}
                 {socialLinks.github && (
                   <NavItem>
                     <NavLink
@@ -136,22 +103,22 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
-                {/* {socialLinks.twitter && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Twitter"
-											className="nav-link-icon"
-											href={socialLinks.twitter}
-											target="_blank"
-										>
-											<i className="fa fa-twitter-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
-											</span>
-										</NavLink>
-									</NavItem>
-								)} */}
+                {socialLinks.instagram && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Instagram"
+                      className="nav-link-icon"
+                      href={socialLinks.instagram}
+                      target="_blank"
+                    >
+                      <i className="fa fa-instagram" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Instagram
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
               </Nav>
             </UncontrolledCollapse>
           </Container>

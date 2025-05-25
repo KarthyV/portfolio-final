@@ -138,98 +138,63 @@ export const experience = [
   },
 ];
 
+// Added alt text for images and improved descriptions for SEO
 export const projects = [
-  // https://drive.google.com/file/d/1c7ZMB8q8rno_ouvZYxLP8WEPaZUTlI5t/view?usp=sharing
   {
     name: "Amigo (E-commerce)",
-    desc: "An PitStop for gadget lovers",
-    tech: [
-      "React",
-      "Redux",
-      "BootStrap",
-      "Mongoose",
-      "MongoDB Atlas",
-      "Stripe",
-      "Socket.io",
-    ],
+    desc: "A responsive e-commerce platform for gadget enthusiasts, built with React and Redux.",
+    tech: ["React", "Redux", "BootStrap", "Mongoose", "MongoDB Atlas", "Stripe", "Socket.io"],
     imageURL: "/assets/amigo.PNG",
+    altText: "Amigo E-commerce platform screenshot",
     link: "https://karthyv-e-app.netlify.app",
     FrontEnd: "https://github.com/KarthyV/e-commerce-client",
     BackEnd: "https://github.com/KarthyV/e-commerce-server",
   },
   {
     name: "Kanban",
-    desc: "Task management webapp",
-    tech: [
-      "React",
-      "vite",
-      "Mongoose",
-      "MongoDB Atlas",
-      "Razorpay",
-      "NodeMailer",
-    ],
+    desc: "A task management web app with a clean and responsive design.",
+    tech: ["React", "vite", "Mongoose", "MongoDB Atlas", "Razorpay", "NodeMailer"],
     imageURL: "/assets/kanban.png",
+    altText: "Kanban task management app screenshot",
     link: "https://kanban-client-beta.vercel.app",
     FrontEnd: "https://github.com/KarthyV/kanban-client",
     BackEnd: "https://github.com/KarthyV/kanban-server",
   },
   {
     name: "Foodzie",
-    desc: "A continental Recipe App,  easy to make your favorite recipe on your own.",
-    tech: [
-      "React",
-      "Auth0",
-      "Material UI",
-      "MongoDB Atlas",
-      "Node",
-      "JWT",
-      "Mongoose",
-      "Netlify",
-      "Heroku",
-    ],
+    desc: "A recipe app with user authentication and a responsive interface.",
+    tech: ["React", "Auth0", "Material UI", "MongoDB Atlas", "Node", "JWT", "Mongoose", "Netlify", "Heroku"],
     imageURL: "/assets/foodzie.PNG",
+    altText: "Foodzie recipe app screenshot",
     link: "https://foodzie-app.netlify.app",
     FrontEnd: "https://github.com/KarthyV/foodzie-frontEnd",
     BackEnd: "https://github.com/KarthyV/foodzie-server",
   },
   {
     name: "Blog App",
-    desc: "An minimalist blog app made with react,redux,mongodb",
-    tech: [
-      "React",
-      "Redux",
-      "BootStrap",
-      "Tailwind css",
-      "Mongoose",
-      "MongoDB Atlas",
-      "JWT",
-    ],
+    desc: "A minimalist blog app with responsive design and secure authentication.",
+    tech: ["React", "Redux", "BootStrap", "Tailwind css", "Mongoose", "MongoDB Atlas", "JWT"],
     imageURL: "/assets/blog.PNG",
+    altText: "Blog app screenshot",
     link: "https://karthyv-blogapp.netlify.app",
     FrontEnd: "https://github.com/KarthyV/Blog---Frontend",
     BackEnd: "https://github.com/KarthyV/Blog---Backend",
   },
   {
     name: "YTC - Lite",
-    desc: "A entertainment app made with youtube API and firebase",
+    desc: "An entertainment app leveraging YouTube API and Firebase for a seamless experience.",
     tech: ["React", "Firebase", "Material UI", "FireStore", "Redux"],
     imageURL: "/assets/ytc.PNG",
+    altText: "YTC Lite entertainment app screenshot",
     link: "https://clone-4d027.web.app",
     FrontEnd: "https://github.com/KarthyV/youtube-clone",
   },
   {
     name: "StackOverflow (Clone)",
-    desc: "An Web App made just like stackoverflow",
-    tech: [
-      "React",
-      "Firebase",
-      "Material UI",
-      "MongoDB Atlas",
-      "Mongoose",
-      "Node",
-      "Redux",
-    ],
+    desc: "A StackOverflow-inspired web app with responsive design and robust backend.",
+    tech: ["React", "Firebase", "Material UI", "MongoDB Atlas", "Mongoose", "Node", "Redux"],
     imageURL: "/assets/stack.PNG",
+    altText: "StackOverflow clone screenshot",
     link: "https://coruscating-faloodeh-10cdab.netlify.app",
     FrontEnd: "https://github.com/KarthyV/stackoverflow",
     BackEnd: "https://github.com/KarthyV/stackoverflow-backend",
@@ -238,13 +203,23 @@ export const projects = [
 
 export const feedbacks = [
   {
-    name: "JLT Reward",
+    name: "JLT Reward - Godrej",
     feedback:
       "Received a Just Like That reward for automating the PR process which was manually done.",
   },
   {
-    name: "Champion Award",
+    name: "Champion Award - Godrej",
     feedback:
       "Received an Champ award for FY 20-21 as Best operational Executive in Procurement team",
   },
+  {
+    name: "Employee of the Month - Remitbee",
+    feedback:
+      "Recognized as Employee of the Month Q3 2024 for outstanding contributions and teamwork.",
+  },
+  {
+    name: "Employee of the Month - Remitbee",
+    feedback:
+      "Recognized as Employee of the Month Q4 2024 for exceptional performance and dedication.",
+  }
 ];

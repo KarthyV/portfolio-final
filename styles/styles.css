@@ -28,3 +28,34 @@ body > div:first-child {
 .credential {
   margin-left: auto !important;
 }
+
+/* Added responsive styles for mobile compatibility */
+@media (max-width: 768px) {
+  .projects_card {
+    min-height: auto !important;
+    padding: 10px;
+  }
+
+  .contact {
+    font-size: 14px;
+  }
+
+  .btn-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .progress-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-label {
+    margin-bottom: 5px;
+  }
+}

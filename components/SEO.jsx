@@ -24,17 +24,31 @@ function SEO({ data }) {
       <meta property="twitter:title" content={data.title} />
       <meta property="twitter:description" content={data.description} />
       <meta property="twitter:image" content={data.image} />
-      <meta name="robots" content="Index" />
+      <meta name="robots" content="index, follow" />
       <link rel="manifest" href="/manifest.json" />
       {/* Favicon */}
-      <link rel="apple-touch-icon" sizes="120x120" href="./favicon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="/favicon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+      {/* Structured Data */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          url: data.url,
+          name: data.title,
+          description: data.description,
+          author: {
+            "@type": "Person",
+            name: "Karthick V",
+          },
+        })}
+      </script>
     </Head>
   );
 }
 
-SEO.prototype = {
+SEO.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     description: PropTypes.string,
